@@ -1,0 +1,1 @@
+alert("Bienvenido al curso de diseño web javascript")

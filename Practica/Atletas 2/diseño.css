@@ -1,0 +1,34 @@
+body{
+    background-image: url(fondo.png);
+    background-size: 100%;
+    
+    
+}
+h2{
+    color: blue;
+    padding-top: 30px;
+    
+}
+p{
+    color: blue;
+}
+label{
+    color: blue;
+    
+}
+.contenedor{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: lightseagreen;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 10px;
+    height: 40%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+footer{
+    padding-bottom: 40px;
+    color: blue;
+}

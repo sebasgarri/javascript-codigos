@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+.contenedor{
+text-align: center;
+}
+h2{
+    margin-top: 12%;
+    margin-bottom: 2%;
+}
+input{
+    margin-bottom: 1%;
+}
+input:focus{
+    background-color: lightcyan;
+}
+button{
+    padding: 5px 5px;
+    background-color: lightcyan;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="diseño.css" media="all" />
+    <title>Tarea4</title>
+</head>
+<body>
+    <h1 class="logodescrip">Empresa Aurora</h1>
+    <section id="contenedor">
+        <h1>Ejemplo-Formulario JS</h1>
+        <form action="enviar.html"  method="post" id="formulario" name="formulario">
+        <fieldset>      
+            <legend>Tus datos:</legend>
+            
+         <label for="nombres">Nombres y Apellidos:</label><br/>   
+         <input type="text" name="nombres" id="nombres"/><br/>
+           
+         <label for="edad">Edad:</label><br/>   
+         <input type="text" name="edad" id="edad"/><br/>
+
+         <label for="direccion">Direcci&oacute;n:</label><br/>   
+         <input type="text" name="direccion" id="direccion"/><br/>
+
+         <label for="email">Email:</label><br/>   
+         <input type="text" name="email" id="email"/><br/>
+
+         <label for="web-site">Sitio Web:</label><br/>   
+         <input type="text" name="web-site" id="web-site"/><br/>
+
+         <label for="telefono">Tel&eacute;fono/Celular:</label><br/>   
+         <input type="text" name="telefono" id="telefono"/><br/>
+
+        </fieldset>
+        <br/>
+        <label for="comentario">Mensaje:</label><br/>
+        <textarea name="comentario" id="comentario" cols="70" rows="10" maxlength="1000" onkeypress="calcular()"
+        onkeyup="calcular()">
+        </textarea><br/>
+        <p>Le quedan <span id="contador-char">1000</span> de 1000 caracteres.</p>
+        <br/>
+        <br/>
+        <button type="button" name="enviar" id="enviar" class="cambio">Enviar</button>&nbsp;&nbsp;&nbsp;
+        <button type="button" id="limpiar" name="limpiar" class="cambio">Limpiar Formulario</button>
+        </form>
+        <br/><br/>
+    </section>
+        <footer>
+        &copy; Sebastian Garrigoza
+        <p>Correo electrónico: sebasgarrigoza49@gmail.com</p>
+        <p id="logo"></p>
+        <address>
+        <p>Direccion:San Lorenzo
+        </adress>
+        </footer>
+        <script async type="text/javascript" src="codigo.js"></script>
+    </body>
+</html>
+               

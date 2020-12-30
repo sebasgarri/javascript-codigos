@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Script que cuenta el número de vocales, el número de espacios en blanco y el número de carácteres escritos">
+       
+        <title>Ejercicio javascript - ejemplo de uso de métodos</title>
+    </head>
+    <body>
+    
+    <script>
+
+        var a = e = i = o = u = blancos = 0;
+        vectorLetras = consultarTexto();
+        
+        function consultarTexto(){
+            var pideTexto = window.prompt("escribe un texto cualquiera");
+            var textoRoto = pideTexto.toLowerCase().split("");
+            return textoRoto;
+        }        
+        
+        for(k=0;k < vectorLetras.length;k++){
+            
+            switch(vectorLetras[k]){
+                case "a":
+                case "à":
+                case "á":
+                    a++;
+                    break;
+                case "e":
+                case "é":
+                case "è":
+                    e++;
+                    break;
+                case "i":
+                case "í":
+                case "ì":
+                    i++;
+                    break;
+                case "o":
+                case "ó":
+                case "ò":
+                    o++;
+                    break;
+                case "u":
+                case "ú":
+                case "ù":
+                    u++;
+                    break;
+                case " ":
+                    blancos++;
+            }
+        }
+        
+        totalVocales = a+e+i+o+u;
+        
+        document.write("Hay " +  a + " vocales 'a'<br>");
+        document.write("Hay " +  e + " vocales 'e'<br>");
+        document.write("Hay " +  i + " vocales 'i'<br>");
+        document.write("Hay " +  o + " vocales 'o'<br>");
+        document.write("Hay " +  u + " vocales 'u'<br>");
+        
+        document.write("<br>");
+        document.write("Total de vocales: " + totalVocales);
+        document.write("<br>");
+        document.write("Total de espacios en blanco: " + blancos);
+        document.write("<br>");
+        document.write("Total de carácteres escritos: " + vectorLetras.length);
+        document.write("<br>");
+        document.write("Texto original: <b>" + vectorLetras.join("") + "</b>");
+    </script>
+
+    </body>
+</html>

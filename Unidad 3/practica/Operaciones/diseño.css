@@ -1,0 +1,28 @@
+body{
+    background-image: url(fondo.png);
+    background-size: 100%;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.contenedor{
+    
+    text-align: center;
+    background-color: crimson;
+    width: 20%;
+    height: 30%;
+    margin-left: 40%;
+    margin-top: 12%;
+    padding-top: 12px;
+    padding-bottom: 25px;
+    
+}
+footer{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}

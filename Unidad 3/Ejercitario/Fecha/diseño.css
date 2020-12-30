@@ -1,0 +1,13 @@
+body{
+    background-image: url(fondo.png);
+    background-size: 100%;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+}
+.contenedor{
+    text-align: center;
+}

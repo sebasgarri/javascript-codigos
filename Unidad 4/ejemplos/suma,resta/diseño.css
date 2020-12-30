@@ -1,0 +1,36 @@
+body{
+    background-image: url(fondo.png);
+    background-size: 100%;
+}
+h2{
+    font-size: 1.5em;
+    text-align: center;
+    color:beige;
+}
+p{
+    color:#004040;
+    font-size:18px;
+}
+.contenedor{
+    margin-top: 10%;
+    margin-left: 40%;
+    background-color: sandybrown;
+    width: 20%;
+    text-align: center;
+}
+footer{
+    font-size: 18px;
+    color: beige;
+    padding-bottom: 15px;
+}
+button{
+    background:brown;
+    border-radius:5px;
+    color:white;
+    padding:10px 20px;
+    border:2px solid white;
+}
+button:focus{
+    border-color: cyan;
+   
+}
